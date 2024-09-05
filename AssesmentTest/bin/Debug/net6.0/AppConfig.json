@@ -1,0 +1,22 @@
+﻿{
+	"UITestSettings": {
+		"browser": "Chrome",
+		"baseUrl": "https://www.saucedemo.com/",
+		"username": "standard_user",
+		"password": "secret_sauce"
+	},
+
+	"APITestSettings": {
+		"baseUrl": "https://test.lan",
+    	"endpoint": "/client",
+    	"headers": {
+      		"content-type": "application/json"
+    	},
+		"testRequestBody": {
+			"name": "string",
+			"email": "string",
+			"balance": 0
+		}
+	}
+}
+  
